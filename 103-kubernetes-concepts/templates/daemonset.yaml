@@ -13,6 +13,8 @@ spec:
         tier: monitoring
         name: prometheus-exporter
     spec:
+      nodeSelector:
+        app: prometheus-node
       containers:
       - name: prometheus
         image: prom/node-exporter

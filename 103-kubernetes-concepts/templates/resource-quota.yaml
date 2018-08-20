@@ -6,7 +6,7 @@ spec:
   hard:
     cpu: "4"
     memory: 6G
-    pods: "12"
+    pods: "5"
     replicationcontrollers: "3"
     services: "5"
     configmaps: "5"
