@@ -6,5 +6,5 @@ metadata:
     k8s-app: redis
 data:
   redis-config: |
-    maxmemory 2mb
+    maxmemory 4mb
     maxmemory-policy allkeys-lru
